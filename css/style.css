@@ -17,6 +17,13 @@ nav{background:var(--black);padding:0 2rem;display:flex;align-items:center;justi
 .nb-c{font-size:0.82rem;color:var(--black);background:var(--gold);padding:0.38rem 1rem;border-radius:3px;border:none;cursor:pointer;font-family:'Barlow',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;transition:background .15s;text-decoration:none;display:inline-block}
 .nb-c:hover{background:#e0b300}
 
+/* ── CONTACT BAR ── */
+.contact-bar{background:#111;border-bottom:2px solid var(--gold);position:sticky;top:62px;z-index:99}
+.contact-bar-inner{max-width:1100px;margin:0 auto;padding:0 2rem;display:flex;justify-content:space-between;align-items:center;height:46px}
+.cb-item{display:flex;align-items:center;gap:0.55rem;color:var(--gold);text-decoration:none;font-size:1.05rem;font-weight:600;letter-spacing:0.02em;transition:opacity .15s}
+.cb-item:hover{opacity:0.75}
+.cb-icon{font-size:1.15rem;line-height:1}
+
 /* ── HAMBURGER ── */
 .hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:8px;background:none;border:none}
 .hamburger span{display:block;width:22px;height:2px;background:#ccc;transition:all .3s}
