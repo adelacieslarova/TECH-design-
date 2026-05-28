@@ -225,6 +225,10 @@ footer{background:#0a0a0a;padding:1.5rem 2rem;display:flex;justify-content:space
 
 /* ── RESPONSIVE ── */
 @media(max-width:900px){
+  .contact-bar-inner{height:auto;padding:0.55rem 1.5rem;flex-wrap:wrap;gap:0.4rem 2rem}
+  .cb-item{font-size:1.1rem}
+  .cb-item[style]{margin-left:0!important}
+  .cb-icon{font-size:1.2rem}
   .srv-grid{grid-template-columns:1fr}
   .srv-card{flex-direction:row}
   .srv-img{width:160px}
@@ -241,6 +245,9 @@ footer{background:#0a0a0a;padding:1.5rem 2rem;display:flex;justify-content:space
   .page-header-content{padding:2.5rem 3rem}
 }
 @media(max-width:640px){
+  .contact-bar-inner{padding:0.5rem 1rem;gap:0.35rem 1rem}
+  .cb-item{font-size:0.85rem;gap:0.35rem}
+  .cb-icon{font-size:0.95rem}
   .nav-menu,.nav-r{display:none}
   .hamburger{display:flex}
   .srv-grid{grid-template-columns:1fr}
