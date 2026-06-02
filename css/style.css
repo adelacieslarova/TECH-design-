@@ -75,7 +75,7 @@ nav{background:var(--black);padding:0 2rem;display:flex;align-items:center;justi
 .sh{text-align:center;margin-bottom:2.8rem}
 .sh .st{font-size:0.72rem;letter-spacing:0.2em;color:var(--gold);text-transform:uppercase;font-weight:600;margin-bottom:0.5rem}
 .sh h2{font-family:'Barlow Condensed',sans-serif;font-size:2.5rem;font-weight:700;letter-spacing:0.04em;text-transform:uppercase}
-.sh p{font-size:1.05rem;color:#555;margin-top:0.7rem;max-width:580px;margin-left:auto;margin-right:auto;line-height:1.68;font-weight:300}
+.sh p{font-size:1.05rem;color:#222;margin-top:0.7rem;max-width:580px;margin-left:auto;margin-right:auto;line-height:1.68;font-weight:400}
 .srv-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:2px;background:#e0dcd4;max-width:1100px;margin:0 auto;border:1px solid #e0dcd4}
 .srv-card{background:var(--white);display:flex;flex-direction:row;transition:background .2s;text-decoration:none;color:inherit}
 .srv-card:hover{background:#FFFBEE}
