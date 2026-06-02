@@ -9,7 +9,7 @@ nav{background:var(--black);padding:0 2rem;display:flex;align-items:center;justi
 .logo{font-family:'Barlow Condensed',sans-serif;font-size:1.5rem;font-weight:700;color:var(--white);letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;display:inline-block;line-height:62px}
 .logo span{color:var(--gold)}
 .nav-menu{display:flex;list-style:none}
-.nav-menu li a{display:block;padding:0 1rem;font-size:0.83rem;color:#999;text-decoration:none;line-height:62px;letter-spacing:0.05em;text-transform:uppercase;transition:color .15s;border-bottom:2px solid transparent}
+.nav-menu li a{display:block;padding:0 1rem;font-size:0.83rem;color:#fff;font-weight:600;text-decoration:none;line-height:62px;letter-spacing:0.05em;text-transform:uppercase;transition:color .15s;border-bottom:2px solid transparent}
 .nav-menu li a:hover,.nav-menu li a.act{color:var(--gold);border-bottom-color:var(--gold)}
 .nav-r{display:flex;gap:0.6rem;align-items:center}
 .nb-e{font-size:0.82rem;color:var(--gold);text-decoration:none;border:1px solid #333;padding:0.38rem 1rem;border-radius:3px;transition:border-color .15s}
