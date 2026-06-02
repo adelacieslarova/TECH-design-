@@ -195,13 +195,13 @@ nav{background:var(--black);padding:0 2rem;display:flex;align-items:center;justi
 .ci-val a{color:var(--gold);text-decoration:none}
 .ci-val a:hover{text-decoration:underline}
 .cf-form{display:flex;flex-direction:column;gap:0.8rem}
-.cf-form input,.cf-form select,.cf-form textarea{background:#111;border:1px solid #333;color:#ddd;padding:0.7rem 1rem;border-radius:3px;font-family:'Barlow',sans-serif;font-size:0.9rem;outline:none;transition:border-color .15s;width:100%}
-.cf-form input::placeholder,.cf-form textarea::placeholder{color:#555}
-.cf-form select{color:#888}
+.cf-form input,.cf-form select,.cf-form textarea{background:#2a2a2a;border:1px solid #555;color:#fff;padding:0.7rem 1rem;border-radius:3px;font-family:'Barlow',sans-serif;font-size:0.9rem;font-weight:500;outline:none;transition:border-color .15s;width:100%}
+.cf-form input::placeholder,.cf-form textarea::placeholder{color:#aaa}
+.cf-form select{color:#ddd}
 .cf-form input:focus,.cf-form select:focus,.cf-form textarea:focus{border-color:var(--gold)}
 .cf-form textarea{resize:vertical}
-.captcha-row{background:#111;border:1px solid #2a2a2a;border-radius:3px;padding:0.65rem 1rem;display:flex;align-items:center;gap:0.75rem}
-.captcha-row span{font-size:0.87rem;color:#888}
+.captcha-row{background:#2a2a2a;border:1px solid #555;border-radius:3px;padding:0.65rem 1rem;display:flex;align-items:center;gap:0.75rem}
+.captcha-row span{font-size:0.87rem;color:#ddd;font-weight:500}
 .captcha-row input{width:70px!important;padding:0.4rem 0.6rem!important}
 .cf-submit{background:var(--gold);color:#111;border:none;padding:0.8rem;border-radius:3px;font-family:'Barlow',sans-serif;font-size:0.9rem;font-weight:700;letter-spacing:0.06em;text-transform:uppercase;cursor:pointer;transition:background .15s;width:100%}
 .cf-submit:hover{background:#e0b300}
