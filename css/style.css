@@ -12,7 +12,7 @@ nav{background:var(--black);padding:0 2rem;display:flex;align-items:center;justi
 .nav-menu li a{display:block;padding:0 1rem;font-size:0.83rem;color:#fff;font-weight:600;text-decoration:none;line-height:62px;letter-spacing:0.05em;text-transform:uppercase;transition:color .15s;border-bottom:2px solid transparent}
 .nav-menu li a:hover,.nav-menu li a.act{color:var(--gold);border-bottom-color:var(--gold)}
 .nav-r{display:flex;gap:0.6rem;align-items:center}
-.nb-e{font-size:0.82rem;color:var(--gold);text-decoration:none;border:1px solid #333;padding:0.38rem 1rem;border-radius:3px;transition:border-color .15s}
+.nb-e{font-size:0.82rem;color:var(--gold);font-weight:700;text-decoration:none;border:1px solid var(--gold);padding:0.38rem 1rem;border-radius:3px;transition:border-color .15s,background .15s}
 .nb-e:hover{border-color:var(--gold)}
 .nb-c{font-size:0.82rem;color:var(--black);background:var(--gold);padding:0.38rem 1rem;border-radius:3px;border:none;cursor:pointer;font-family:'Barlow',sans-serif;font-weight:700;text-transform:uppercase;letter-spacing:0.04em;transition:background .15s;text-decoration:none;display:inline-block}
 .nb-c:hover{background:#e0b300}
